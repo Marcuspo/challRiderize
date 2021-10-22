@@ -28,6 +28,28 @@
 		B5E2D5B76DA24B86AB3E8404 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 783B4083BA5146D6B1C838A9 /* Octicons.ttf */; };
 		7DBCAB1F60BB45CEA09D3BA7 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0CAC7A0B7A04C57B8E58D88 /* SimpleLineIcons.ttf */; };
 		75C336B9838E4CB9AAC64125 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 950904339C3D40BBA2E3B860 /* Zocial.ttf */; };
+		DA0AA3E0278D425EBB6327DA /* DIN 30640 Std Neuzeit Grotesk Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = BE53D1AE94044546A05BD3EC /* DIN 30640 Std Neuzeit Grotesk Light.otf */; };
+		A67EC749873D458C8AF594E0 /* Neuzeit Grotesk Cond W01 Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8962F3DCAF9542EFA9F8B1EC /* Neuzeit Grotesk Cond W01 Black.otf */; };
+		CEAD3AAF8099444DB78FAD5C /* Neuzeit Grotesk W01 Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 47D72514FA8D4570BB111E6C /* Neuzeit Grotesk W01 Regular.otf */; };
+		10CB7D03D95440FE9A0946AF /* NeuzeitGro-Bla.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25B99475FAFB41A0BDEF0CE0 /* NeuzeitGro-Bla.ttf */; };
+		3001553A6E9144489B4B49FA /* NeuzeitGro-Bla.woff in Resources */ = {isa = PBXBuildFile; fileRef = C95E3452BE984034AC837D06 /* NeuzeitGro-Bla.woff */; };
+		F5D630C34D82479487D1BEE1 /* NeuzeitGro-Bla.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B6495FBB215245388522F4D3 /* NeuzeitGro-Bla.woff2 */; };
+		67A3819A80E941308FB76BCA /* NeuzeitGro-Bol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C83CAFC3764D12BD45E854 /* NeuzeitGro-Bol.ttf */; };
+		DF5168AFF60D4E0FA8A6A1D4 /* NeuzeitGro-Bol.woff in Resources */ = {isa = PBXBuildFile; fileRef = B821386B057B42AD9EA2E1EA /* NeuzeitGro-Bol.woff */; };
+		72BDA73B647F4177A361735D /* NeuzeitGro-Bol.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 702D3A82816F4042ACC82BB5 /* NeuzeitGro-Bol.woff2 */; };
+		1A8178869C6B44CDB9D16438 /* NeuzeitGro-Lig.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CA5E8785F0A48748387ADEB /* NeuzeitGro-Lig.ttf */; };
+		5644876378074CC2AB3930C6 /* NeuzeitGro-Lig.woff in Resources */ = {isa = PBXBuildFile; fileRef = A77D40057C034E6A96F358D5 /* NeuzeitGro-Lig.woff */; };
+		7F360A161F85455A8E3540C4 /* NeuzeitGro-Lig.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 1FDD7D81E8EA4234A1ECCD6E /* NeuzeitGro-Lig.woff2 */; };
+		3060020C568B43BDBF63D9FD /* NeuzeitGro-Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE1D225F3A4D83B039F313 /* NeuzeitGro-Reg.ttf */; };
+		2E9B063B404B4656AB76AA3D /* NeuzeitGro-Reg.woff in Resources */ = {isa = PBXBuildFile; fileRef = 9184241052CE4D32B6EE85B4 /* NeuzeitGro-Reg.woff */; };
+		64D772CA348D43C1989EA60B /* NeuzeitGro-Reg.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 0586A9A1705C4A1794A05B56 /* NeuzeitGro-Reg.woff2 */; };
+		90A4158BB6EF4D5988E8DF70 /* NeuzeitGroCon-Bla.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7A66C9F10E242188F469F77 /* NeuzeitGroCon-Bla.ttf */; };
+		171FF27412BA4434AC042745 /* NeuzeitGroCon-Bla.woff in Resources */ = {isa = PBXBuildFile; fileRef = F43DDF5829C7449596533423 /* NeuzeitGroCon-Bla.woff */; };
+		503B046DEF9F40FA99D2C6B7 /* NeuzeitGroCon-Bla.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 9E5D68C5245F460DB517B28C /* NeuzeitGroCon-Bla.woff2 */; };
+		740AD876A4AD4C3B949DE43F /* NeuzeitGroExt-Bla.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8600239C0D747928E76D05A /* NeuzeitGroExt-Bla.ttf */; };
+		96A50F2B2F494C8DB7B0CCD1 /* NeuzeitGroExt-Bla.woff in Resources */ = {isa = PBXBuildFile; fileRef = 612F15045CF74BDCADA50D29 /* NeuzeitGroExt-Bla.woff */; };
+		CDBEE0E5F5024CDE974256E1 /* NeuzeitGroExt-Bla.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6ADD113BE1284352AAA0BE64 /* NeuzeitGroExt-Bla.woff2 */; };
+		6FCE041C7D154F24A33CC710 /* NeuzeitSBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E757AAB8FD0A4D3EA98DA64B /* NeuzeitSBook.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +90,28 @@
 		783B4083BA5146D6B1C838A9 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		D0CAC7A0B7A04C57B8E58D88 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		950904339C3D40BBA2E3B860 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BE53D1AE94044546A05BD3EC /* DIN 30640 Std Neuzeit Grotesk Light.otf */ = {isa = PBXFileReference; name = "DIN 30640 Std Neuzeit Grotesk Light.otf"; path = "../src/assets/fonts/DIN 30640 Std Neuzeit Grotesk Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8962F3DCAF9542EFA9F8B1EC /* Neuzeit Grotesk Cond W01 Black.otf */ = {isa = PBXFileReference; name = "Neuzeit Grotesk Cond W01 Black.otf"; path = "../src/assets/fonts/Neuzeit Grotesk Cond W01 Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		47D72514FA8D4570BB111E6C /* Neuzeit Grotesk W01 Regular.otf */ = {isa = PBXFileReference; name = "Neuzeit Grotesk W01 Regular.otf"; path = "../src/assets/fonts/Neuzeit Grotesk W01 Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		25B99475FAFB41A0BDEF0CE0 /* NeuzeitGro-Bla.ttf */ = {isa = PBXFileReference; name = "NeuzeitGro-Bla.ttf"; path = "../src/assets/fonts/NeuzeitGro-Bla.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C95E3452BE984034AC837D06 /* NeuzeitGro-Bla.woff */ = {isa = PBXFileReference; name = "NeuzeitGro-Bla.woff"; path = "../src/assets/fonts/NeuzeitGro-Bla.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B6495FBB215245388522F4D3 /* NeuzeitGro-Bla.woff2 */ = {isa = PBXFileReference; name = "NeuzeitGro-Bla.woff2"; path = "../src/assets/fonts/NeuzeitGro-Bla.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		84C83CAFC3764D12BD45E854 /* NeuzeitGro-Bol.ttf */ = {isa = PBXFileReference; name = "NeuzeitGro-Bol.ttf"; path = "../src/assets/fonts/NeuzeitGro-Bol.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B821386B057B42AD9EA2E1EA /* NeuzeitGro-Bol.woff */ = {isa = PBXFileReference; name = "NeuzeitGro-Bol.woff"; path = "../src/assets/fonts/NeuzeitGro-Bol.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		702D3A82816F4042ACC82BB5 /* NeuzeitGro-Bol.woff2 */ = {isa = PBXFileReference; name = "NeuzeitGro-Bol.woff2"; path = "../src/assets/fonts/NeuzeitGro-Bol.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3CA5E8785F0A48748387ADEB /* NeuzeitGro-Lig.ttf */ = {isa = PBXFileReference; name = "NeuzeitGro-Lig.ttf"; path = "../src/assets/fonts/NeuzeitGro-Lig.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A77D40057C034E6A96F358D5 /* NeuzeitGro-Lig.woff */ = {isa = PBXFileReference; name = "NeuzeitGro-Lig.woff"; path = "../src/assets/fonts/NeuzeitGro-Lig.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1FDD7D81E8EA4234A1ECCD6E /* NeuzeitGro-Lig.woff2 */ = {isa = PBXFileReference; name = "NeuzeitGro-Lig.woff2"; path = "../src/assets/fonts/NeuzeitGro-Lig.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1BFE1D225F3A4D83B039F313 /* NeuzeitGro-Reg.ttf */ = {isa = PBXFileReference; name = "NeuzeitGro-Reg.ttf"; path = "../src/assets/fonts/NeuzeitGro-Reg.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9184241052CE4D32B6EE85B4 /* NeuzeitGro-Reg.woff */ = {isa = PBXFileReference; name = "NeuzeitGro-Reg.woff"; path = "../src/assets/fonts/NeuzeitGro-Reg.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0586A9A1705C4A1794A05B56 /* NeuzeitGro-Reg.woff2 */ = {isa = PBXFileReference; name = "NeuzeitGro-Reg.woff2"; path = "../src/assets/fonts/NeuzeitGro-Reg.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F7A66C9F10E242188F469F77 /* NeuzeitGroCon-Bla.ttf */ = {isa = PBXFileReference; name = "NeuzeitGroCon-Bla.ttf"; path = "../src/assets/fonts/NeuzeitGroCon-Bla.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F43DDF5829C7449596533423 /* NeuzeitGroCon-Bla.woff */ = {isa = PBXFileReference; name = "NeuzeitGroCon-Bla.woff"; path = "../src/assets/fonts/NeuzeitGroCon-Bla.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9E5D68C5245F460DB517B28C /* NeuzeitGroCon-Bla.woff2 */ = {isa = PBXFileReference; name = "NeuzeitGroCon-Bla.woff2"; path = "../src/assets/fonts/NeuzeitGroCon-Bla.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D8600239C0D747928E76D05A /* NeuzeitGroExt-Bla.ttf */ = {isa = PBXFileReference; name = "NeuzeitGroExt-Bla.ttf"; path = "../src/assets/fonts/NeuzeitGroExt-Bla.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		612F15045CF74BDCADA50D29 /* NeuzeitGroExt-Bla.woff */ = {isa = PBXFileReference; name = "NeuzeitGroExt-Bla.woff"; path = "../src/assets/fonts/NeuzeitGroExt-Bla.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6ADD113BE1284352AAA0BE64 /* NeuzeitGroExt-Bla.woff2 */ = {isa = PBXFileReference; name = "NeuzeitGroExt-Bla.woff2"; path = "../src/assets/fonts/NeuzeitGroExt-Bla.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E757AAB8FD0A4D3EA98DA64B /* NeuzeitSBook.ttf */ = {isa = PBXFileReference; name = "NeuzeitSBook.ttf"; path = "../src/assets/fonts/NeuzeitSBook.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +220,28 @@
 				783B4083BA5146D6B1C838A9 /* Octicons.ttf */,
 				D0CAC7A0B7A04C57B8E58D88 /* SimpleLineIcons.ttf */,
 				950904339C3D40BBA2E3B860 /* Zocial.ttf */,
+				BE53D1AE94044546A05BD3EC /* DIN 30640 Std Neuzeit Grotesk Light.otf */,
+				8962F3DCAF9542EFA9F8B1EC /* Neuzeit Grotesk Cond W01 Black.otf */,
+				47D72514FA8D4570BB111E6C /* Neuzeit Grotesk W01 Regular.otf */,
+				25B99475FAFB41A0BDEF0CE0 /* NeuzeitGro-Bla.ttf */,
+				C95E3452BE984034AC837D06 /* NeuzeitGro-Bla.woff */,
+				B6495FBB215245388522F4D3 /* NeuzeitGro-Bla.woff2 */,
+				84C83CAFC3764D12BD45E854 /* NeuzeitGro-Bol.ttf */,
+				B821386B057B42AD9EA2E1EA /* NeuzeitGro-Bol.woff */,
+				702D3A82816F4042ACC82BB5 /* NeuzeitGro-Bol.woff2 */,
+				3CA5E8785F0A48748387ADEB /* NeuzeitGro-Lig.ttf */,
+				A77D40057C034E6A96F358D5 /* NeuzeitGro-Lig.woff */,
+				1FDD7D81E8EA4234A1ECCD6E /* NeuzeitGro-Lig.woff2 */,
+				1BFE1D225F3A4D83B039F313 /* NeuzeitGro-Reg.ttf */,
+				9184241052CE4D32B6EE85B4 /* NeuzeitGro-Reg.woff */,
+				0586A9A1705C4A1794A05B56 /* NeuzeitGro-Reg.woff2 */,
+				F7A66C9F10E242188F469F77 /* NeuzeitGroCon-Bla.ttf */,
+				F43DDF5829C7449596533423 /* NeuzeitGroCon-Bla.woff */,
+				9E5D68C5245F460DB517B28C /* NeuzeitGroCon-Bla.woff2 */,
+				D8600239C0D747928E76D05A /* NeuzeitGroExt-Bla.ttf */,
+				612F15045CF74BDCADA50D29 /* NeuzeitGroExt-Bla.woff */,
+				6ADD113BE1284352AAA0BE64 /* NeuzeitGroExt-Bla.woff2 */,
+				E757AAB8FD0A4D3EA98DA64B /* NeuzeitSBook.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -287,6 +353,28 @@
 				B5E2D5B76DA24B86AB3E8404 /* Octicons.ttf in Resources */,
 				7DBCAB1F60BB45CEA09D3BA7 /* SimpleLineIcons.ttf in Resources */,
 				75C336B9838E4CB9AAC64125 /* Zocial.ttf in Resources */,
+				DA0AA3E0278D425EBB6327DA /* DIN 30640 Std Neuzeit Grotesk Light.otf in Resources */,
+				A67EC749873D458C8AF594E0 /* Neuzeit Grotesk Cond W01 Black.otf in Resources */,
+				CEAD3AAF8099444DB78FAD5C /* Neuzeit Grotesk W01 Regular.otf in Resources */,
+				10CB7D03D95440FE9A0946AF /* NeuzeitGro-Bla.ttf in Resources */,
+				3001553A6E9144489B4B49FA /* NeuzeitGro-Bla.woff in Resources */,
+				F5D630C34D82479487D1BEE1 /* NeuzeitGro-Bla.woff2 in Resources */,
+				67A3819A80E941308FB76BCA /* NeuzeitGro-Bol.ttf in Resources */,
+				DF5168AFF60D4E0FA8A6A1D4 /* NeuzeitGro-Bol.woff in Resources */,
+				72BDA73B647F4177A361735D /* NeuzeitGro-Bol.woff2 in Resources */,
+				1A8178869C6B44CDB9D16438 /* NeuzeitGro-Lig.ttf in Resources */,
+				5644876378074CC2AB3930C6 /* NeuzeitGro-Lig.woff in Resources */,
+				7F360A161F85455A8E3540C4 /* NeuzeitGro-Lig.woff2 in Resources */,
+				3060020C568B43BDBF63D9FD /* NeuzeitGro-Reg.ttf in Resources */,
+				2E9B063B404B4656AB76AA3D /* NeuzeitGro-Reg.woff in Resources */,
+				64D772CA348D43C1989EA60B /* NeuzeitGro-Reg.woff2 in Resources */,
+				90A4158BB6EF4D5988E8DF70 /* NeuzeitGroCon-Bla.ttf in Resources */,
+				171FF27412BA4434AC042745 /* NeuzeitGroCon-Bla.woff in Resources */,
+				503B046DEF9F40FA99D2C6B7 /* NeuzeitGroCon-Bla.woff2 in Resources */,
+				740AD876A4AD4C3B949DE43F /* NeuzeitGroExt-Bla.ttf in Resources */,
+				96A50F2B2F494C8DB7B0CCD1 /* NeuzeitGroExt-Bla.woff in Resources */,
+				CDBEE0E5F5024CDE974256E1 /* NeuzeitGroExt-Bla.woff2 in Resources */,
+				6FCE041C7D154F24A33CC710 /* NeuzeitSBook.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
