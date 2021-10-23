@@ -1,10 +1,13 @@
 import React from 'react';
-import {StatusBar, Text} from 'react-native';
+import {StatusBar} from 'react-native';
 
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import IconFeather from 'react-native-vector-icons/Feather';
 
 import {TabBarContainer, Container, TextTab} from './Styles';
+
+import Map from '../Map/Map';
+import Footer from '../Footer/Footer';
 
 export default function TabBar() {
   return (
@@ -29,6 +32,8 @@ export default function TabBar() {
           style={{paddingRight: 20}}
         />
       </TabBarContainer>
+      <Map />
+      <Footer />
     </Container>
   );
 }
