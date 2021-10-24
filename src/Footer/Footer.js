@@ -8,11 +8,15 @@ import {
   ViewButton,
 } from './Styles';
 
+import {useNavigation} from '@react-navigation/native';
+
 import IconFontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import MaterialIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
-export default function Footer() {
+function Footer() {
   const size = 20;
+  const navigation = useNavigation();
+
   return (
     <Container>
       <ButtonsFooterTop>
@@ -22,7 +26,7 @@ export default function Footer() {
         <MaterialIcons name="clipboard" size={size} color="#000000" />
       </ButtonsFooterTop>
       <ViewButton>
-        <ButtonFooter>
+        <ButtonFooter onPress={() => navigation.navigate('Activity')}>
           <TextButton>Iniciar atividade</TextButton>
           <MaterialIcons
             name="arrow-right"
@@ -35,3 +39,5 @@ export default function Footer() {
     </Container>
   );
 }
+
+export default Footer;
