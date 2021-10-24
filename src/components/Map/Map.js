@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {PermissionsAndroid, Platform, Text, View} from 'react-native';
+import {PermissionsAndroid, Platform, View} from 'react-native';
 import MapView from 'react-native-maps';
 
 import Geolocation from '@react-native-community/geolocation';
@@ -19,14 +19,6 @@ function Map() {
       const requestLocationPermission = async () => {
         const granted = await PermissionsAndroid.request(
           PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
-          {
-            title: 'Permissão de acesso à localização',
-            message:
-              'Este aplicativo precisa acessar sua localizãção, mas é apenas isso!',
-            buttonNeutral: 'Pergunta depois',
-            buttonPositive: 'Vai lá!',
-            buttonNegative: 'Não deixo!',
-          },
         );
         if (granted === PermissionsAndroid.RESULTS.GRANTED) {
           getLocation();
@@ -44,7 +36,6 @@ function Map() {
         setLatitude(position.coords.latitude);
         setLongitude(position.coords.longitude);
       },
-      error => alert(error.message),
       {enableHighAccuracy: true, timeout: 20000, maximumAge: 1000},
     );
     Geolocation.watchPosition(position => {

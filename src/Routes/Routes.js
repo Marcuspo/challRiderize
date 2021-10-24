@@ -2,8 +2,8 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
-import TabBar from '../TabBar/TabBar';
-import Activity from '../Activity/Activity';
+import Index from '../components/Index';
+import Activity from '../components/Activity/Activity';
 
 const Stack = createNativeStackNavigator();
 
@@ -15,7 +15,7 @@ export default function App() {
         screenOptions={{
           headerShown: false,
         }}>
-        <Stack.Screen name="Pedalada" component={TabBar} />
+        <Stack.Screen name="Pedalada" component={Index} />
         <Stack.Screen name="Activity" component={Activity} />
       </Stack.Navigator>
     </NavigationContainer>

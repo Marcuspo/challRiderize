@@ -6,9 +6,6 @@ import IconFeather from 'react-native-vector-icons/Feather';
 
 import {TabBarContainer, Container, TextTab} from './Styles';
 
-import Map from '../Map/Map';
-import Footer from '../Footer/Footer';
-
 export default function TabBar() {
   return (
     <Container>
@@ -32,8 +29,6 @@ export default function TabBar() {
           style={{paddingRight: 20}}
         />
       </TabBarContainer>
-      <Map />
-      <Footer />
     </Container>
   );
 }
