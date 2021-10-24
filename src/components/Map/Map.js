@@ -5,8 +5,8 @@ import MapView from 'react-native-maps';
 import Geolocation from '@react-native-community/geolocation';
 
 function Map() {
-  const [latitude, setLatitude] = useState(0);
-  const [longitude, setLongitude] = useState(0);
+  const [latitude, setLatitude] = useState(-5.0);
+  const [longitude, setLongitude] = useState(-42.0);
 
   useEffect(() => {
     callLocation();
@@ -23,25 +23,26 @@ function Map() {
         if (granted === PermissionsAndroid.RESULTS.GRANTED) {
           getLocation();
         } else {
-          alert('Aceita a permissão aí, pfvr');
         }
       };
       requestLocationPermission();
     }
   }
 
-  async function getLocation() {
+  function getLocation() {
     Geolocation.getCurrentPosition(
       position => {
-        setLatitude(position.coords.latitude);
-        setLongitude(position.coords.longitude);
+        const userLatitude = position.coords.latitude;
+        const userLongitude = position.coords.longitude;
+
+        setLongitude(userLongitude);
+        setLatitude(userLatitude);
+      },
+      error => {
+        console.log(error);
       },
       {enableHighAccuracy: true, timeout: 20000, maximumAge: 1000},
     );
-    Geolocation.watchPosition(position => {
-      setLatitude(position.coords.latitude);
-      setLongitude(position.coords.longitude);
-    });
   }
 
   return (
@@ -51,8 +52,8 @@ function Map() {
         initialRegion={{
           latitude: latitude,
           longitude: longitude,
-          latitudeDelta: 0.01922,
-          longitudeDelta: 0.01421,
+          latitudeDelta: 0.00922,
+          longitudeDelta: 0.00421,
         }}
         showUserLocationButton
         followsUserLocation

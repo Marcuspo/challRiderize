@@ -4,9 +4,12 @@ import {StatusBar} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import IconFeather from 'react-native-vector-icons/Feather';
 
+import {useNavigation} from '@react-navigation/native';
+
 import {TabBarContainer, Container, TextTab} from './Styles';
 
 export default function TabBar() {
+  const navigation = useNavigation();
   return (
     <Container>
       <StatusBar
@@ -16,6 +19,9 @@ export default function TabBar() {
       />
       <TabBarContainer>
         <Icon
+          onPress={() => {
+            navigation.navigate('Pedalada');
+          }}
           name="arrow-left"
           size={20}
           color="#000000"
