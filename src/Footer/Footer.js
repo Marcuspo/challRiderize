@@ -1,10 +1,37 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+
+import {
+  Container,
+  ButtonsFooterTop,
+  ButtonFooter,
+  TextButton,
+  ViewButton,
+} from './Styles';
+
+import IconFontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import MaterialIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 export default function Footer() {
+  const size = 20;
   return (
-    <View style={{height: 100}}>
-      <Text>TESTE</Text>
-    </View>
+    <Container>
+      <ButtonsFooterTop>
+        <IconFontAwesome5 name="route" size={size} color="#000000" />
+        <MaterialIcons name="bike" size={size} color="#000000" />
+        <IconFontAwesome5 name="mountain" size={size} color="#000000" />
+        <MaterialIcons name="clipboard" size={size} color="#000000" />
+      </ButtonsFooterTop>
+      <ViewButton>
+        <ButtonFooter>
+          <TextButton>Iniciar atividade</TextButton>
+          <MaterialIcons
+            name="arrow-right"
+            size={size}
+            color="#FFFFFF"
+            style={{paddingTop: 17, paddingRight: 15}}
+          />
+        </ButtonFooter>
+      </ViewButton>
+    </Container>
   );
 }

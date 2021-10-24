@@ -13,10 +13,9 @@ export const TabBarContainer = styled.View`
 `;
 
 export const TextTab = styled.Text`
-  font-family: 'Neuzeit Grotesk';
+  font-family: 'NeuzeitGro-Bla';
   color: #000;
   font-size: 20px;
-  font-weight: bold;
   line-height: 28px;
   font-style: normal;
 `;
