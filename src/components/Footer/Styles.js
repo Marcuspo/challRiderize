@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.View`
+  background-color: #ffffff;
   height: 19%;
   flex: 0.25;
-  margin: 0px 10px;
 `;
 
 export const ButtonsFooterTop = styled.View`
@@ -32,4 +32,8 @@ export const TextButton = styled.Text`
   line-height: 20px;
   align-items: center;
   color: #ffffff;
+`;
+
+export const ContainerFooter = styled.View`
+  margin: 0px 10px;
 `;

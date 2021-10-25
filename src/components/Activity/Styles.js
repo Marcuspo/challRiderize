@@ -101,6 +101,7 @@ export const ButtonFooter = styled.TouchableOpacity`
   flex-direction: row;
   justify-content: center;
 `;
+
 export const TextButton = styled.Text`
   padding: 10px;
   font-family: 'NeuzeitGro-Lig';

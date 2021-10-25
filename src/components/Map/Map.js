@@ -4,13 +4,13 @@ import MapView from 'react-native-maps';
 
 import Geolocation from '@react-native-community/geolocation';
 
-function Map() {
+export default function Map() {
   const [latitude, setLatitude] = useState(-5.0);
   const [longitude, setLongitude] = useState(-42.0);
 
   useEffect(() => {
     callLocation();
-  }, []);
+  });
 
   function callLocation() {
     if (Platform === 'ios') {
@@ -41,7 +41,7 @@ function Map() {
       error => {
         console.log(error);
       },
-      {enableHighAccuracy: true, timeout: 20000, maximumAge: 1000},
+      {enableHighAccuracy: true, timeout: 2000, maximumAge: 1000},
     );
   }
 
@@ -63,5 +63,3 @@ function Map() {
     </View>
   );
 }
-
-export default Map;

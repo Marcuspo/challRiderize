@@ -1,6 +1,4 @@
 import React from 'react';
-import Map from '../Map/Map';
-import TabBar from '../TabBar/TabBar';
 
 import {
   Container,
@@ -21,11 +19,9 @@ import {
   TextButton,
 } from './Styles';
 
-export default function Activity() {
+export default function Activity(props) {
   return (
     <Container>
-      <TabBar />
-      <Map />
       <FooterActivity>
         <LineTopFooter>
           <Line />
@@ -45,7 +41,10 @@ export default function Activity() {
           </RightText>
         </OtherNames>
 
-        <ButtonFooter>
+        <ButtonFooter
+          onPress={() => {
+            props.clickActivityButton();
+          }}>
           <TextButton>Parar</TextButton>
         </ButtonFooter>
       </FooterActivity>
