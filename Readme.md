@@ -8,4 +8,5 @@ Técnologias usadas:
  - styled-components - Para estilização dos componentes via js.
 
  Preview da utilização do aplicativo: 
+ 
  ![](./src/preview/Preview-project.gif)
