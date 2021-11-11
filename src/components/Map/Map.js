@@ -49,11 +49,12 @@ export default function Map() {
     <View style={{flex: 1}}>
       <MapView
         style={{flex: 1}}
+        userInterfaceStyle="dark"
         initialRegion={{
           latitude: latitude,
           longitude: longitude,
-          latitudeDelta: 0.00922,
-          longitudeDelta: 0.00421,
+          latitudeDelta: 0.000922,
+          longitudeDelta: 0.000421,
         }}
         showUserLocationButton
         followsUserLocation

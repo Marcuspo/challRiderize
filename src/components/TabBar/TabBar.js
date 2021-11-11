@@ -10,6 +10,7 @@ import {TabBarContainer, Container, TextTab} from './Styles';
 
 export default function TabBar() {
   const navigation = useNavigation();
+
   return (
     <Container>
       <StatusBar
@@ -20,7 +21,7 @@ export default function TabBar() {
       <TabBarContainer>
         <Icon
           onPress={() => {
-            navigation.navigate('Pedalada');
+            navigation.goBack();
           }}
           name="arrow-left"
           size={20}

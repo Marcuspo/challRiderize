@@ -37,3 +37,5 @@ export const TextButton = styled.Text`
 export const ContainerFooter = styled.View`
   margin: 0px 10px;
 `;
+
+export const ButtonRoutes = styled.TouchableOpacity``;

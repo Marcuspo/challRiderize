@@ -7,14 +7,18 @@ import {
   TextButton,
   ViewButton,
   ContainerFooter,
+  ButtonRoutes,
 } from './Styles';
 
 import IconFontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import MaterialIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Activity from '../Activity/Activity';
 
+import {useNavigation} from '@react-navigation/native';
+
 function Footer() {
   const size = 20;
+  const navigation = useNavigation();
 
   const [activityOn, setActivityOn] = useState(true);
 
@@ -28,7 +32,12 @@ function Footer() {
         <Container>
           <ContainerFooter>
             <ButtonsFooterTop>
-              <IconFontAwesome5 name="route" size={size} color="#000000" />
+              <ButtonRoutes
+                onPress={() => {
+                  navigation.navigate('RoutesComponent');
+                }}>
+                <IconFontAwesome5 name="route" size={size} color="#000000" />
+              </ButtonRoutes>
               <MaterialIcons name="bike" size={size} color="#000000" />
               <IconFontAwesome5 name="mountain" size={size} color="#000000" />
               <MaterialIcons name="clipboard" size={size} color="#000000" />
